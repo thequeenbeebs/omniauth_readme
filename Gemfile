@@ -13,7 +13,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'thin'
+# gem 'thin'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -44,3 +44,9 @@ group :development, :test do
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
+
+gem 'omniauth'
+
+gem 'omniauth-facebook'
+
+gem 'dotenv-rails'
